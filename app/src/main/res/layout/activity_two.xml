@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="lekhicomp.com.feedbackform.ActivityTwo">
+
+    <TextView
+        android:id="@+id/textTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback Form (1)"
+        android:textSize="24dp"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/Course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your current Course:"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:layout_marginTop="10dp" />
+    <CheckBox
+        android:id="@+id/checkBoxJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Java"/>
+    <CheckBox
+        android:id="@+id/checkBoxAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Android"/>
+    <CheckBox
+        android:id="@+id/checkBoxSwift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swift"/>
+
+
+    <TextView
+        android:id="@+id/contentClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Were the Contents clear?"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"/>
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RadioButton
+        android:id="@+id/radioContentCY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/radioContentCN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="No" />
+</RadioGroup>
+
+    <TextView
+        android:id="@+id/contentVisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Were the Contents Visible?"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioContentVY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/radioContentVN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="No" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/seating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is the Seating Arrangement Adequate?"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioSeatingY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/radioSeatingN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="No" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Was the Audio clear?"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioAudioY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/radioAudioN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="No" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
+</ScrollView>
